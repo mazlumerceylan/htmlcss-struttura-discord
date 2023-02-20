@@ -15,13 +15,13 @@ header{
 
 
 header div.logo{
-height: 35px;
-width: 65%;
-display: flex;
-align-items: center;
-justify-content: space-between;
-flex-wrap: wrap;
-background-color: rgb(218 165 33);
+  height: 35px;
+  width: 65%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  background-color: rgb(218 165 33);
 }
 
 
@@ -90,3 +90,67 @@ background-color: rgb(218 165 33);
   background-color: rgb(255 191 203);
 }
 
+
+.container{
+  width: 100%;
+  height: 800px;
+  background-color: rgb(211 211 211);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container section{
+  width: 60%;
+  height: 90%;
+  display: flex;
+  background-color: rgb(35 139 33);
+}
+
+.prechiusura{
+  width: 100%;
+  height: 500px;
+  padding-bottom: 30px;
+  background-color: rgb(35 39 42);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.prechiusura .col1{
+  width: 20%;
+  height: 95%;
+  background-color: rgb(240 128 128);
+  border: 2px solid black;
+}
+
+.prechiusura .col2,
+.prechiusura .col3,
+.prechiusura .col4,
+.prechiusura .col5{
+  width: 10%;
+  height: 95%;
+  background-color: rgb(33 178 170);
+  border: 2px solid black;
+}
+
+.last{
+  width: 100%;
+  height: 70px;
+  border-top: 2px solid rgb(212 213 213);
+  background-color: rgb(35 39 42);
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.lastmenu{
+  width: 60%;
+  height: 75%;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+
+}
