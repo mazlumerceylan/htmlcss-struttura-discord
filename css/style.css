@@ -4,6 +4,11 @@
   box-sizing: border-box;
 }
 
+body{
+  max-width: 1170px;
+
+}
+
 header{
   height: 65px;
   display: flex;
@@ -52,19 +57,19 @@ header div.logo{
 
 .sezione .first{
   height: 350px;
-  width: 35%;
+  width: 40%;
   background-color: rgb(29 144 255);
 }
 
 .sezione .firstn{
   height: 350px;
-  width: 30%;
+  width: 25%;
   background-color: rgb(255 191 203);
 }
 
 .sezione .second{
   height: 350px;
-  width: 30%;
+  width: 25%;
   background-color: rgb(255 191 203);
   
 }
@@ -72,21 +77,21 @@ header div.logo{
 
 .sezione .secondn{
   height: 350px;
-  width: 35%;
+  width: 40%;
   background-color: rgb(29 144 255);
 }
 
 
 .sezione .trt{
   height: 350px;
-  width: 35%;
+  width: 40%;
   background-color: rgb(29 144 255);
 }
 
 
 .sezione .trtn{
   height: 350px;
-  width: 30%;
+  width: 25%;
   background-color: rgb(255 191 203);
 }
 
@@ -101,7 +106,7 @@ header div.logo{
 }
 
 .container section{
-  width: 60%;
+  width: 65%;
   height: 90%;
   display: flex;
   background-color: rgb(35 139 33);
@@ -151,6 +156,4 @@ header div.logo{
   display: flex;
   justify-content: space-between;
   align-items: center;
-
-
 }
